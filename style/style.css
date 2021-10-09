@@ -1,0 +1,152 @@
+* {
+    box-sizing: border-box;
+    /* outline: 1px solid red; */
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: sans-serif;
+}
+
+.container {
+    width: 768px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    height: 60px;
+    background-color: #c4dfe6;
+    margin-bottom: 10px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.logo {
+    padding: 0;
+    margin: 0;
+}
+
+.menu__radio {
+    display: none;
+}
+
+.menu__label {
+    box-sizing: content-box;
+    padding: 10px;
+    background-color: #66a5ad;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.menu__radio:checked + .menu__label {
+    color: #fff;
+    background-color: #003b46;
+}
+
+.view {
+    display: flex;
+    flex-direction: column;
+}
+
+.view__image {
+    display: block;
+    height: 350px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.view__buttons {
+    width: 565px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.view__button {
+    box-sizing: content-box;
+    min-width: 150px;
+    padding: 10px;
+    background-color: #c4dfe6;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.view__button:hover {
+    background-color: #66a5ad
+}
+
+.none {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    width: 350px;
+    height: 350px;
+}
+
+.footer {
+    display: flex;
+    flex-shrink: 0;
+    margin-top: auto;
+    height: 60px;
+    background-color: #c4dfe6;
+}
+
+.footer__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__logo, .footer__year {
+    padding: 0;
+    margin: 0;
+}
+
+.remove__list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.remove__item {
+    display: flex;
+    align-items: center;
+    box-sizing: content-box;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    background-color: #c4dfe6;
+}
+
+.remove__item:hover {
+    background-color: #66a5ad;
+}
+
+.remove__img {
+    width: 50px;
+    border-radius: 5px;
+}
+
+.remove__description {
+    margin-left: 10px;
+}
+
+.remove__button {
+    min-width: 70px;
+    margin-left: auto;
+    background-color: #fa7c7c;
+}
+
+.remove__button:hover {
+    background-color: #f89393;
+}
