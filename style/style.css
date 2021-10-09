@@ -84,6 +84,11 @@ body {
     background-color: #66a5ad
 }
 
+.view__button:disabled {
+    cursor: default;
+    background-color: #c4dfe6;
+}
+
 .none {
     display: flex;
     align-items: center;
