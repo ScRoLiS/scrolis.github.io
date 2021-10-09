@@ -39,6 +39,7 @@ body {
 }
 
 .menu__label {
+    transition: all 0.3s;
     box-sizing: content-box;
     padding: 10px;
     background-color: #66a5ad;
@@ -71,6 +72,7 @@ body {
 }
 
 .view__button {
+    transition: all 0.3s;
     box-sizing: content-box;
     min-width: 150px;
     padding: 10px;
@@ -124,6 +126,7 @@ body {
 }
 
 .remove__item {
+    transition: all 0.3s;
     display: flex;
     align-items: center;
     box-sizing: content-box;
@@ -147,6 +150,7 @@ body {
 }
 
 .remove__button {
+    transition: all 0.3s;
     min-width: 70px;
     margin-left: auto;
     background-color: #fa7c7c;
@@ -154,4 +158,49 @@ body {
 
 .remove__button:hover {
     background-color: #f89393;
+}
+
+.upload {
+    display: flex;
+    gap: 5px;
+}
+
+.upload__file {
+    display: none;
+}
+
+.upload__input {
+    width: 100%;
+    padding: 8px;
+    border: none;
+    outline: 1px solid black;
+    border-radius: 5px;
+}
+
+.upload__label {
+    transition: all 0.3s;
+    flex-shrink: 0;
+    box-sizing: content-box;
+    padding: 10px;
+    background-color: #66a5ad;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.upload__label:hover {
+    background-color: #c4dfe6;;
+}
+
+.upload__button {
+    transition: all 0.3s;
+    flex-shrink: 0;
+    width: 150px;
+    background-color: #24bd45;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.upload__button:hover {
+    background-color: #4de96f;
 }
