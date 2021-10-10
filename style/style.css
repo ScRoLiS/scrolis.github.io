@@ -148,6 +148,9 @@ body {
 
 .remove__description {
     margin-left: 10px;
+    width: 100%;
+    word-wrap: break-word;
+    word-break: break-all;
 }
 
 .remove__button {
