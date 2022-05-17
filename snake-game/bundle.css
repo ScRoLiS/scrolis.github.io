@@ -1,0 +1,75 @@
+@font-face {
+  src: url(assets/fonts/157ad177366a1fe6875b.woff) format('woff');
+  font-family: "gameover";
+  font-weight: 400;
+}
+
+* {
+  font-family: "gameover";
+  font-size: 12px;
+}
+
+body {
+  margin: 0;
+  display: grid;
+  place-items: center;
+  min-width: 100vw;
+  min-height: 100vh;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.control {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.control__wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.control__wrapper--row {
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+}
+
+#canvas {
+  border: 1px solid black;
+  box-sizing: border-box;
+  height: auto;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#show-controls {
+  margin-top: 20px;
+}
+
+.hide {
+  display: none;
+}
