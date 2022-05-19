@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.bd3cbd0f.css",
+    "main.js": "/static/js/main.abda80f6.js",
+    "static/media/bookstore.jpg": "/static/media/bookstore.159381a1955dca84e1c4.jpg",
+    "static/media/cat-energy.jpg": "/static/media/cat-energy.59a34f0dfa79723e4356.jpg",
+    "static/media/fores.jpg": "/static/media/fores.ab4e50ca69e0c3f90506.jpg",
+    "static/media/weather-app.jpg": "/static/media/weather-app.00b216788a36f6a61eb4.jpg",
+    "static/media/todo-list-react.jpg": "/static/media/todo-list-react.713df57b66abd12049cc.jpg",
+    "static/media/snake-game.jpg": "/static/media/snake-game.31ae62dee0d431536f97.jpg",
+    "index.html": "/index.html",
+    "main.bd3cbd0f.css.map": "/static/css/main.bd3cbd0f.css.map",
+    "main.abda80f6.js.map": "/static/js/main.abda80f6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bd3cbd0f.css",
+    "static/js/main.abda80f6.js"
+  ]
+}
