@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.bd3cbd0f.css",
-    "main.js": "/static/js/main.b2cd4728.js",
+    "main.js": "/static/js/main.9bac6e64.js",
     "static/media/bookstore.jpg": "/static/media/bookstore.159381a1955dca84e1c4.jpg",
     "static/media/cat-energy.jpg": "/static/media/cat-energy.59a34f0dfa79723e4356.jpg",
     "static/media/fores.jpg": "/static/media/fores.ab4e50ca69e0c3f90506.jpg",
@@ -10,10 +10,10 @@
     "static/media/snake-game.jpg": "/static/media/snake-game.31ae62dee0d431536f97.jpg",
     "index.html": "/index.html",
     "main.bd3cbd0f.css.map": "/static/css/main.bd3cbd0f.css.map",
-    "main.b2cd4728.js.map": "/static/js/main.b2cd4728.js.map"
+    "main.9bac6e64.js.map": "/static/js/main.9bac6e64.js.map"
   },
   "entrypoints": [
     "static/css/main.bd3cbd0f.css",
-    "static/js/main.b2cd4728.js"
+    "static/js/main.9bac6e64.js"
   ]
 }
